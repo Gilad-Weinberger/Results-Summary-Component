@@ -1,0 +1,123 @@
+:root{
+    /* Primary */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body{
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    margin: auto;
+    margin-top: 160px;
+    width: 50%;
+    display: flex;
+}
+.left{
+    border-radius: 20px;
+    width: 300px;
+    height: 420px;
+    background-image: linear-gradient(to bottom, var(--Light-slate-blue), var(--Light-royal-blue));
+}
+.left-title{
+    color: var(--Light-lavender);
+    margin-top: 30px;
+}
+.precent{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    padding: 5px 10px 10px 10px;
+    background-image: linear-gradient(to top, var(--Persian-blue), var(--Violet-blue));
+}   
+.precent-title{
+    font-size: 50px;
+    color: white;
+    margin-bottom: -25px;
+}
+.precent-text{
+    color: var(--Light-lavender);
+}
+.great{
+    margin-top: 40px;
+    color: white;
+}
+.description{
+    color: var(--Light-lavender);
+    max-width: 220px;
+}
+
+/* Right side */
+
+.right{
+    border-radius: 20px;
+    width: 240px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 420px;
+    box-shadow: 0px 25px 50px 0px rgba(156, 184, 255, 0.4);
+}
+.right-title{
+    color: var(--Dark-gray-blue)    ;
+}
+.skill{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: lightcyan;
+}
+.reaction{
+    background-color: #fff6f5;
+}
+.memory{
+    background-color: #fffbf2;
+}
+.verbal{
+    background-color: #f2fbfa;
+}
+.visual{
+    background-color: #f2f3fc;
+}
+.skill-img{
+    margin-right: 15px;
+}
+.skill-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.rec-title{
+    color: var(--Light-red);
+}
+.mem-title{
+    color: var(--Orangey-yellow);
+}
+.ver-title{
+    color: var(--Green-teal);
+}
+.vis-title{
+    color: var(--Cobalt-blue);
+}
+.skill-text{
+    position: absolute;
+    text-align: right;
+    right: 15px;
+}
+.skill-precent{
+    font-weight: bold;
+}
